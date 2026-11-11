@@ -1,0 +1,42 @@
+{
+  "welch_anova_log_speed": {
+    "statistic": 4.426013975636349,
+    "p": 0.013855606205791708
+  },
+  "levene_log_speed": {
+    "statistic": 4.879619956013672,
+    "p": 0.00805605838882925
+  },
+  "kruskal_wallis": {
+    "statistic": 10.067274993009278,
+    "p": 0.006515068876297068
+  },
+  "pairwise_welch_holm": [
+    {
+      "a": "Urban",
+      "b": "Intermediate",
+      "log_mean_difference": 0.14587440548246988,
+      "p": 0.010206959550318289,
+      "p_holm": 0.030620878650954867
+    },
+    {
+      "a": "Urban",
+      "b": "Rural",
+      "log_mean_difference": 0.14563527992041347,
+      "p": 0.06447539409376518,
+      "p_holm": 0.12895078818753036
+    },
+    {
+      "a": "Intermediate",
+      "b": "Rural",
+      "log_mean_difference": -0.00023912556205640811,
+      "p": 0.9978340801068425,
+      "p_holm": 0.9978340801068425
+    }
+  ],
+  "spearman_density_speed": {
+    "rho": 0.31129674892172626,
+    "p": 1.5017212112433896e-10,
+    "n": 405
+  }
+}

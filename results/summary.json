@@ -1,0 +1,126 @@
+{
+  "all_municipalities": 2110,
+  "observed_municipalities": 1847,
+  "eligible_municipalities": 405,
+  "assigned_tiles": 14066,
+  "tests": 51815,
+  "groups": [
+    {
+      "municipality_type": "Intermediate",
+      "n": 107,
+      "mean_download": 169.9306143703176,
+      "median_download": 159.68784615384615,
+      "mean_upload": 32.20164037636672,
+      "median_latency": 22.104166666666668,
+      "median_density": 0.3993610223642173
+    },
+    {
+      "municipality_type": "Rural",
+      "n": 57,
+      "mean_download": 172.96858989140839,
+      "median_download": 149.2118787878788,
+      "mean_upload": 35.3304982747475,
+      "median_latency": 23.072164948453608,
+      "median_density": 0.2589715131335553
+    },
+    {
+      "municipality_type": "Urban",
+      "n": 241,
+      "mean_download": 188.52810708491742,
+      "median_download": 188.43844537815124,
+      "mean_upload": 38.61403050874236,
+      "median_latency": 22.42,
+      "median_density": 1.5847216578626575
+    }
+  ],
+  "coverage": [
+    {
+      "municipality_type": "Intermediate",
+      "total": 580,
+      "observed": 549,
+      "eligible": 107,
+      "observed_pct": 94.65517241379311,
+      "eligible_pct": 18.448275862068964
+    },
+    {
+      "municipality_type": "Rural",
+      "total": 1021,
+      "observed": 796,
+      "eligible": 57,
+      "observed_pct": 77.96278158667972,
+      "eligible_pct": 5.5827619980411365
+    },
+    {
+      "municipality_type": "Urban",
+      "total": 509,
+      "observed": 502,
+      "eligible": 241,
+      "observed_pct": 98.62475442043223,
+      "eligible_pct": 47.347740667976424
+    }
+  ],
+  "models": [
+    {
+      "validation": "Random 80/20 holdout",
+      "model": "Mean baseline",
+      "n_test": 81,
+      "r2": -0.004436108769718006,
+      "rmse_mbps": 69.0138614346016,
+      "mae_mbps": 57.48047572491746
+    },
+    {
+      "validation": "5-fold canton-grouped OOF",
+      "model": "Mean baseline",
+      "n_test": 405,
+      "r2": -0.02532649419519628,
+      "rmse_mbps": 76.7427357831568,
+      "mae_mbps": 59.35963064292501
+    },
+    {
+      "validation": "Random 80/20 holdout",
+      "model": "Linear regression",
+      "n_test": 81,
+      "r2": 0.09749105543270997,
+      "rmse_mbps": 65.41855191642708,
+      "mae_mbps": 53.76940406107936
+    },
+    {
+      "validation": "5-fold canton-grouped OOF",
+      "model": "Linear regression",
+      "n_test": 405,
+      "r2": 0.02316361478208695,
+      "rmse_mbps": 74.9060853894271,
+      "mae_mbps": 56.97159323008779
+    },
+    {
+      "validation": "Random 80/20 holdout",
+      "model": "Random forest",
+      "n_test": 81,
+      "r2": 0.04249059017701273,
+      "rmse_mbps": 67.3824339737245,
+      "mae_mbps": 54.686597626817644
+    },
+    {
+      "validation": "5-fold canton-grouped OOF",
+      "model": "Random forest",
+      "n_test": 405,
+      "r2": -0.02521709975306874,
+      "rmse_mbps": 76.7386417444509,
+      "mae_mbps": 58.60268935831669
+    }
+  ],
+  "bootstrap": {
+    "estimand": "Urban minus Rural median municipality Mbps",
+    "median_gap": 39.226566590272455,
+    "ci95": [
+      -6.8623113118731,
+      60.04981589675993
+    ],
+    "resamples": 1000,
+    "cluster": "canton",
+    "seed": 42
+  },
+  "clusters": 2,
+  "infrastructure_r2_in_sample_log": 0.10199536293197486,
+  "controls_r2_in_sample_log": 0.0672378863462939
+}

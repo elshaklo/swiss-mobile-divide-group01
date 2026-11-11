@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-11-11T12:38:33.769736+00:00",
+  "client_date": "2026-11-11",
+  "performance_period": "2026-Q3",
+  "snapshot_note": "Existing files are immutable cached snapshots. Acquisition date recorded in this run; source dates below differ.",
+  "sources": {
+    "municipality_correspondences_2025_2026.csv": "https://www.agvchapp.bfs.admin.ch/api/communes/correspondances?includeUnmodified=true&includeTerritoryExchange=false&startPeriod=06-04-2025&endPeriod=01-01-2026",
+    "bfs_typologies_labels_2026.csv": "https://www.agvchapp.bfs.admin.ch/api/communes/levels?date=01-01-2026&labelLanguages=de",
+    "bakom_metadata.json": "https://data.geo.admin.ch/api/stac/v1/collections/ch.bakom.standorte-mobilfunkanlagen/items/standorte-mobilfunkanlagen",
+    "bakom_stations_2026-11-09.geojson": "https://data.geo.admin.ch/ch.bakom.standorte-mobilfunkanlagen/standorte-mobilfunkanlagen/standorte-mobilfunkanlagen_2056.json",
+    "boundaries_2026.gpkg.zip": "https://data.geo.admin.ch/ch.swisstopo.swissboundaries3d/swissboundaries3d_2026-01/swissboundaries3d_2026-01_2056_5728.gpkg.zip",
+    "population_2025.json": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_100/px-x-0102010000_100.px",
+    "ookla_bbox_q3_2026.parquet": "https://ookla-open-data.s3.amazonaws.com/parquet/performance/type=mobile/year=2026/quarter=3/2026-07-01_performance_mobile_tiles.parquet"
+  },
+  "source_dates": {
+    "stations": "2026-11-09",
+    "boundaries": "2026-01-01",
+    "typology": "2020 definition, 2026-01-01 municipality status",
+    "population": "2025-12-31, geography 2025-04-06",
+    "performance": "2026-07-01 through 2026-09-30"
+  },
+  "files": [
+    {
+      "file": "bakom_metadata.json",
+      "bytes": 1445,
+      "sha256": "e96634d7696b4144cd026920da88167980efaf8fb01da34b3b3c8a67dbbf6681"
+    },
+    {
+      "file": "bakom_stations_2026-11-09.geojson",
+      "bytes": 27820794,
+      "sha256": "1fedc77f229025af5d4e9d1e788e256e0ddd33776c4c295b60ec5dd51f6d7c21"
+    },
+    {
+      "file": "bfs_typologies_2026.csv",
+      "bytes": 268026,
+      "sha256": "1d68b882f68753e6b9667ec630035db5585c467338a2fc400da49335230f8776"
+    },
+    {
+      "file": "bfs_typologies_labels_2026.csv",
+      "bytes": 1721130,
+      "sha256": "3eb17ba1810e052dcce41fce55d11af7567cbaf78903492c507fe32d9c7bb1d0"
+    },
+    {
+      "file": "boundaries_2026.gpkg.zip",
+      "bytes": 37361779,
+      "sha256": "68e922353c76fa5db3cef06a32f9711c0198faa6fbd2b5bcde9edc88b0f8999f"
+    },
+    {
+      "file": "municipality_correspondences_2025_2026.csv",
+      "bytes": 208071,
+      "sha256": "4371ce314dec762ee003cf41239431e5b44ac790c119ab318471bd92ea8a861d"
+    },
+    {
+      "file": "ookla_bbox_q3_2026.parquet",
+      "bytes": 1796325,
+      "sha256": "efde65138f87e268b9330ba24a2e6d79264a2af8f79d907ef6cad79ff8009fe2"
+    },
+    {
+      "file": "population_2025.json",
+      "bytes": 100598,
+      "sha256": "8a0d5ec41983e6a36db43e1343910470f8346b4a8740fa076be7f054f2e68fca"
+    },
+    {
+      "file": "population_metadata.json",
+      "bytes": 113680,
+      "sha256": "50f0e2de584c6187a3297379f61852c9491501cc760167ef044639150580f26e"
+    },
+    {
+      "file": "population_query.json",
+      "bytes": 39014,
+      "sha256": "5b5194befd15258f11fd9d800a5d2e9fcf4a81bd0e098f2533ec30dbbac013bf"
+    }
+  ]
+}

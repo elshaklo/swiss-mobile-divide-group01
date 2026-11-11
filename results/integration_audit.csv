@@ -1,0 +1,20 @@
+step,records,detail
+boundary_all_features,2136,Includes lakes and foreign units
+boundary_swiss_municipalities,2110,Dissolved BFS id; exclude lakes/foreign units
+municipalities_missing_typology,0,"Left join on integer BFS id, no municipality discarded"
+population_source_municipalities,2115,Population uses geography 2025-04-06; harmonize before joining
+population_changed_municipality_codes,7,Official BFS correspondences incl. mergers and Moutier canton transfer
+population_harmonized_municipalities,2110,Aggregate many-to-one mergers; population total conserved
+municipalities_missing_population,0,No ad hoc name matching or population imputation
+station_records_raw,22731,"Operator station records, not individual antenna elements or unique physical masts"
+station_exact_duplicates_removed,0,Deduplicate station identifier plus coordinates only
+record_key_boundary_assignments,0,"Exact boundary intersects, smallest BFS id; no nearest snapping"
+stations_not_in_municipality,50,Retained in unmatched output; may be foreign/on unallocated lake territory
+ookla_bbox_tiles,30162,BBox contains foreign tiles; not yet Switzerland-only
+invalid_tiles_removed,0,"Positive test/device counts and download, nonnegative upload/latency"
+quadkey_boundary_assignments,0,"Exact boundary intersects, smallest BFS id; no nearest snapping"
+ookla_tiles_outside_municipalities,16096,"Foreign, lake and border-centroid tiles excluded; not missing-speed zeros"
+ookla_assigned_tiles,14066,Centroid within municipality; boundary sensitivity also computed
+all_integrated_municipalities,2110,"One row per municipality, unobserved outcome stays NULL"
+observed_municipalities,1847,At least one valid mobile tile
+eligible_municipalities,405,"Predefined >=30 tests, >=3 tiles; population >0 and known typology"

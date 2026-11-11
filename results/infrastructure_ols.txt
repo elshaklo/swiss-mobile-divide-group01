@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           log_download   R-squared:                       0.102
+Model:                            OLS   Adj. R-squared:                  0.088
+Method:                 Least Squares   F-statistic:                     7.472
+Date:                Wed, 11 Nov 2026   Prob (F-statistic):           0.000116
+Time:                        13:38:37   Log-Likelihood:                -244.60
+No. Observations:                 405   AIC:                             503.2
+Df Residuals:                     398   BIC:                             531.2
+Df Model:                           6                                         
+Covariance Type:              cluster                                         
+======================================================================================================================================
+                                                                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                              5.2428      0.376     13.941      0.000       4.468       6.017
+C(municipality_type, Treatment(reference="Urban"))[T.Intermediate]    -0.0487      0.059     -0.826      0.417      -0.170       0.073
+C(municipality_type, Treatment(reference="Urban"))[T.Rural]           -0.0626      0.108     -0.578      0.568      -0.286       0.160
+log_population_density                                                -0.0709      0.037     -1.938      0.064      -0.146       0.004
+mountain                                                              -0.1901      0.106     -1.787      0.086      -0.409       0.029
+log_station_density                                                    0.2628      0.078      3.356      0.003       0.102       0.424
+share_5g_model                                                         0.2081      0.294      0.709      0.485      -0.396       0.813
+==============================================================================
+Omnibus:                       36.895   Durbin-Watson:                   1.923
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               52.077
+Skew:                          -0.651   Prob(JB):                     4.92e-12
+Kurtosis:                       4.180   Cond. No.                         102.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)

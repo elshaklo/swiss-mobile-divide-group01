@@ -1,0 +1,12 @@
+{
+  "selected_k": 2,
+  "mean_adjusted_rand": 1.0,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "note": "Exploratory profiles; speed included, therefore clusters do not independently validate a speed gap."
+}

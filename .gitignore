@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+data/raw/
+data/processed/
+*.mp4
+*.zip
+.DS_Store
+
+/results/stations_unmatched.csv

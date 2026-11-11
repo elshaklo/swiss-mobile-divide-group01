@@ -1,0 +1,7 @@
+analysis,Urban,Intermediate,Rural,model_fitted,note
+all_observed,502,549,796,True,Descriptive threshold check only if any group has fewer than 10 municipalities
+threshold_10,389,307,271,True,Descriptive threshold check only if any group has fewer than 10 municipalities
+threshold_100,78,2,1,False,Descriptive threshold check only if any group has fewer than 10 municipalities
+unweighted_tiles,241,107,57,True,Descriptive threshold check only if any group has fewer than 10 municipalities
+interior_tiles,239,107,57,True,Descriptive threshold check only if any group has fewer than 10 municipalities
+all_station_types,241,107,57,True,Descriptive threshold check only if any group has fewer than 10 municipalities

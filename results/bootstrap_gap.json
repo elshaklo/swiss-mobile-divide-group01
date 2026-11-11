@@ -1,0 +1,11 @@
+{
+  "estimand": "Urban minus Rural median municipality Mbps",
+  "median_gap": 39.226566590272455,
+  "ci95": [
+    -6.8623113118731,
+    60.04981589675993
+  ],
+  "resamples": 1000,
+  "cluster": "canton",
+  "seed": 42
+}

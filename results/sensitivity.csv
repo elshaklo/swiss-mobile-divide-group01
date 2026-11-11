@@ -1,0 +1,16 @@
+analysis,n,term,coef,p
+all_observed,1847,"C(municipality_type, Treatment(reference=""Urban""))[T.Intermediate]",0.010165718821849912,0.8461887829088547
+all_observed,1847,"C(municipality_type, Treatment(reference=""Urban""))[T.Rural]",-0.15673213358669383,0.13880766813088627
+all_observed,1847,log_station_density,0.29654209393892816,0.001196173117774854
+threshold_10,967,"C(municipality_type, Treatment(reference=""Urban""))[T.Intermediate]",0.00017937926079135413,0.996959108689057
+threshold_10,967,"C(municipality_type, Treatment(reference=""Urban""))[T.Rural]",-0.08765038374713352,0.23870086451189285
+threshold_10,967,log_station_density,0.3199658512347394,1.1556926619162332e-07
+unweighted_tiles,405,"C(municipality_type, Treatment(reference=""Urban""))[T.Intermediate]",-0.011086837706180748,0.8380784520402795
+unweighted_tiles,405,"C(municipality_type, Treatment(reference=""Urban""))[T.Rural]",0.04509729947259425,0.633777892732527
+unweighted_tiles,405,log_station_density,0.17258018091619487,0.018748872320292893
+interior_tiles,403,"C(municipality_type, Treatment(reference=""Urban""))[T.Intermediate]",-0.030290792088076703,0.6654538158737334
+interior_tiles,403,"C(municipality_type, Treatment(reference=""Urban""))[T.Rural]",-0.0626968924687967,0.6272086796725016
+interior_tiles,403,log_station_density,0.28562895118330367,0.005182869480727837
+all_station_types,405,"C(municipality_type, Treatment(reference=""Urban""))[T.Intermediate]",-0.04587428610463286,0.4447824030253038
+all_station_types,405,"C(municipality_type, Treatment(reference=""Urban""))[T.Rural]",-0.05822693370834478,0.5949841754733151
+all_station_types,405,log_station_density,0.20788964489772188,0.0038951934195653945

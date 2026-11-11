@@ -1,0 +1,6 @@
+{
+  "bp_statistic": 23.61508684938127,
+  "bp_p": 0.0006145967908034592,
+  "n_canton_clusters": 26,
+  "caution": "P-values exploratory: 26 clusters and residual spatial dependence remain. Cross-sectional associations do not identify causal effects."
+}

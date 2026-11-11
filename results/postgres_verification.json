@@ -1,0 +1,14 @@
+{
+  "status": "executed successfully",
+  "server": "PostgreSQL 17.11 (Homebrew) on aarch64-apple-darwin25.6.0, compiled by Apple clang version 21.0.0 (clang-2100.3.34.2), 64-bit",
+  "schema": "mobile_divide_group01",
+  "tables": {
+    "municipalities": 2110,
+    "tiles": 14066,
+    "stations": 22681
+  },
+  "join_and_aggregation": "Executed in PostgreSQL from Python",
+  "sqlite_parity": "PASS",
+  "primary_and_foreign_keys": "enforced",
+  "database_credentials": "not included"
+}

@@ -1,0 +1,12 @@
+{
+  "municipality_keys": "PASS",
+  "fact_keys": "PASS",
+  "foreign_keys": "PASS",
+  "municipality_enrichment": "PASS",
+  "population_conserved_through_mergers": "PASS",
+  "unobserved_speed_not_zero": "PASS",
+  "test_count_conserved": "PASS",
+  "weighted_aggregation": "PASS",
+  "sqlite_integrity": "PASS",
+  "raw_snapshot_hashes": "PASS"
+}
