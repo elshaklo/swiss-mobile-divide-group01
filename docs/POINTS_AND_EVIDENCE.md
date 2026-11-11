@@ -25,7 +25,7 @@ Source: Moodle evaluation text supplied by Klodian in this chat on 11 November 2
 | Geographic integration/visualization | EPSG:2056 point-in-polygon, Swiss choropleths, boundary sensitivity | Executed |
 | Test with p-value | Welch ANOVA, corrected pairwise tests, Spearman and caveats | Executed |
 | Additional k-means | k=2…6 selection, silhouette, scaling, profiles and stability | Executed |
-| Public GitHub code and URL in presentation | Repository-ready code, README, ignore rules; actual URL must be added after publication | Outstanding until published |
+| Public GitHub code and URL in presentation | [Public code](https://github.com/elshaklo/swiss-mobile-divide-group01); URL on final slide 14 | Published; public visibility verified |
 
 ## Video (max. 7 points)
 

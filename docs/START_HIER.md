@@ -28,7 +28,7 @@ Echte API-/Quelldaten, Datenbereinigung, verlustprotokollierte räumliche Integr
 - Formale Themenfreigabe erhalten, insbesondere Verwendung von direkt erhobenen API-Infrastrukturdaten mit sekundären Ookla-Leistungsdaten bestätigen lassen.
 - Notebook und Folien gemeinsam verstehen und prüfen; persönliche KI-Erfahrungen ergänzen.
 - Konzept vor Ort frei präsentieren.
-- Öffentliches GitHub-Repository veröffentlichen und tatsächliche URL im finalen PDF ergänzen, falls noch offen.
+- Öffentliches GitHub-Repository ist veröffentlicht und auf Folie 14 verlinkt: https://github.com/elshaklo/swiss-mobile-divide-group01
 - 15-minütiges Video mit euren Erklärungen aufnehmen, Laufzeit prüfen und Dateien auf Moodle abgeben.
 
 Es wurden keine E-Mails an die Gruppe oder Lehrperson geschickt und keine Moodle-Abgaben vorgenommen. Lokale Dateien sind kein Nachweis einer Abgabe. Diese menschlichen Schritte werden nicht als erledigt markiert.

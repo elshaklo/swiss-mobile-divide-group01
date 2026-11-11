@@ -92,7 +92,7 @@ There were also concrete failures. Initial package and certificate problems requ
 
 The project includes an executed notebook, raw source snapshots with hashes, a complete integration audit, SQLite and a separately executed PostgreSQL implementation. Primary and foreign keys are enforced in PostgreSQL, and the SQL results match SQLite numerically. The appendix contains code snippets, an actual executed-notebook screenshot and output evidence for the assessment criteria.
 
-The final submission combines the materials archive, the result presentation and this fifteen-minute group explanation. Public repository publication and the Moodle upload must be verified separately; a local file is not proof of submission. Thank you for listening.
+The final submission combines the materials archive, the result presentation and this fifteen-minute group explanation. The public code repository is linked on this slide. The Moodle upload must still be verified separately; a local file is not proof of submission. Thank you for listening.
 
 ## Vor der Aufnahme
 

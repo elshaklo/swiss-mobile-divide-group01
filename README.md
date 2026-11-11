@@ -26,6 +26,10 @@ differences between individual mobile network operators.
 - `results/`: actual tables, figures, model diagnostics and integration audit.
 - `data/raw/manifest.json`: URLs, source dates and SHA-256 snapshot checksums.
 
+## Public repository
+
+https://github.com/elshaklo/swiss-mobile-divide-group01 — verified public on 11 November 2026. Full raw snapshots are included in the Moodle materials ZIP, not GitHub.
+
 ## Reproduce from included data
 
 Python 3.14 was used for the supplied run. The exact tested environment is in
@@ -99,8 +103,7 @@ present these data as independently measured radio coverage by the group.
 The topic is formally approved at the concept presentation. Confirm with the
 lecturer that API-collected explanatory station data plus secondary Ookla
 outcomes satisfy the primary-source requirement. No approval is claimed yet.
-The public GitHub repository and the three-person 15-minute MP4 are human
-handover items until actually published/recorded. Moodle submission must be
+Public repository: https://github.com/elshaklo/swiss-mobile-divide-group01. The three-person 15-minute MP4 still needs to be recorded by the group. Moodle submission must be
 verified separately; presence of local files does not establish submission.
 
 AI assistance is disclosed in the notebook, presentation and AI usage log.
